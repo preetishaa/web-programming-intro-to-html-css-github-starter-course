@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #333;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+
+.nav-links a:hover {
+    color: blue;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.landing-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #667eea;
+}
+
+.landing-content {
+    text-align: center;
+    color: white;
+}
+
+.landing-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.enter-btn {
+    padding: 15px 30px;
+    background-color: white;
+    color: #667eea;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.enter-btn:hover {
+    background-color: #764ba2;
+    color: white;
+}
+
+
+.home-section {
+    padding: 40px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.home-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.home-intro h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.home-intro p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-btn:hover {
+    background-color: blue;
+}
+
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.calendar-section {
+    padding: 40px 10%;
+}
+
+.calendar-container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calendar-header button:hover {
+    background-color: #667eea;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    gap: 5px;
+}
+
+.day {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.day:hover {
+    background-color: #667eea;
+    color: white;
+}
+
+.today {
+    background-color: #764ba2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
